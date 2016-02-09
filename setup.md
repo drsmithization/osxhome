@@ -17,7 +17,7 @@ $ port select --list gcc
 Available versions for gcc:
 	mp-gcc5
 	none (active)
-$ sudo port select --set gcc gcc5
+$ sudo port select --set gcc mp-gcc5
 $ hash -r
 $ sudo port install g95
 ```
