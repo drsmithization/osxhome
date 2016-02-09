@@ -22,12 +22,13 @@ cat << EOF > $HOME/.gitconfig
     added = yellow
     changed = green
     untracked = cyan
+[user]
+    name = $NAME
+    email = $EMAIL
+[credential]
+    helper = osxkeychain
 EOF
 
 cat << EOF > $HOME/.gitexcludes
 .DS_Store
 EOF
-
-git config --global user.name "$NAME"
-git config --global user.email $EMAIL
-git config --global credential.helper osxkeychain
