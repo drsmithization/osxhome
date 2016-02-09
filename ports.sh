@@ -4,7 +4,7 @@ set -ex
 
 sudo port selfupdate
 sudo port install gcc5
-sudo port select --set gcc gcc5
+sudo port select --set gcc mp-gcc5
 hash -r
 sudo port install g95
 
