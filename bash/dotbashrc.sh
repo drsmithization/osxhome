@@ -79,7 +79,7 @@ export PIP_REQUIRE_VIRTUALENV=true
 export PIP_DOWNLOAD_CACHE=~/.pip/cache
 
 if command_exists virtualenv; then
-    if [ -d "$DIRECTORY" ]; then
+    if [ -f ~/.virtualenvs/science/bin/activate ]; then
         source ~/.virtualenvs/science/bin/activate
     fi
 fi
