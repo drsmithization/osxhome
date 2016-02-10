@@ -4,6 +4,12 @@ $ xcode-select --install
 ```
 ## iTerm2
 
+#### bash shortcuts (emacs mode)
+Handy Bash shortucts for editing (Alt+B, Alt+D) are not turned on by default. In order to enable them:
+* open iTerm -> Preferences -> Profiles
+* choose your profile and go to the tab Keys
+* tick Left options key acts as +Esc
+
 ## MacPorts
 Install [MacPorts](https://www.macports.org) open iTerm2 and run:
 ```bash
