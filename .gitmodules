@@ -1,0 +1,3 @@
+[submodule "dotvim/bundle/smyck/colors"]
+	path = dotvim/bundle/smyck/colors
+	url = https://github.com/hukl/Smyck-Color-Scheme.git
