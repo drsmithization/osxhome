@@ -83,3 +83,6 @@ if command_exists virtualenv; then
         source ~/.virtualenvs/science/bin/activate
     fi
 fi
+
+# julia
+export PATH=/Applications/Julia-0.4.3.app/Contents/Resources/julia/bin/:$PATH
