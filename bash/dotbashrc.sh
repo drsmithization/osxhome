@@ -78,9 +78,10 @@ export PIP_VIRTUALENV_BASE=~/.virtualenvs
 export PIP_REQUIRE_VIRTUALENV=true
 export PIP_DOWNLOAD_CACHE=~/.pip/cache
 
+VIRTUALENV_ACTIVATE_FILENAME=$HOME/.virtualenvs/science/bin/activate
 if command_exists virtualenv; then
-    if [ -f ~/.virtualenvs/science/bin/activate ]; then
-        source ~/.virtualenvs/science/bin/activate
+    if [ -f $VIRTUALENV_ACTIVATE_FILENAME ]; then
+        source $VIRTUALENV_ACTIVATE_FILENAME
     fi
 fi
 
